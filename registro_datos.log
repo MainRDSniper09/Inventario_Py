@@ -5,3 +5,8 @@ LINE 1: SELECT * FROM inventario
                       ^
  <class 'psycopg2.errors.UndefinedTable'> <traceback object at 0x7d04ce9ee180>
 04:30:09 PM: INFO [CursorDelPool.py:35] [(1, 'Clorox', 'Limpiador Multiusos', 20000.0, 2)]
+04:42:36 PM: INFO [Objetos.py:59] 
+            ID producto: 1, Nombre: Clorox, 
+            Descripcion: Limpiado multiusos, Precio: 20000.0,
+            Cantidad: 5
+        
