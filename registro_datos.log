@@ -1,1 +1,7 @@
 03:44:42 PM: DEBUG [logger_base.py:12] Prueba debug
+04:29:35 PM: ERROR [CursorDelPool.py:23] Ocurrio un error, realizando rollback: 'psycopg2.extensions.cursor' object has no attribute 'excute' <class 'AttributeError'> <traceback object at 0x7b79b5bbf780>
+04:29:48 PM: ERROR [CursorDelPool.py:23] Ocurrio un error, realizando rollback: relation "inventario" does not exist
+LINE 1: SELECT * FROM inventario
+                      ^
+ <class 'psycopg2.errors.UndefinedTable'> <traceback object at 0x7d04ce9ee180>
+04:30:09 PM: INFO [CursorDelPool.py:35] [(1, 'Clorox', 'Limpiador Multiusos', 20000.0, 2)]
