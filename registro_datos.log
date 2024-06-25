@@ -19,3 +19,6 @@ LINE 1: SELEC * FROM objetos ORDER BY id_producto
             Descripcion: Limpiador Multiusos, Precio: 20000.0,
             Cantidad: 2
         
+09:04:09 PM: INFO [Usuario.py:35] 
+            Usuario: Nicolas, Password: 1234
+        
