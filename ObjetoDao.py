@@ -29,7 +29,7 @@ class ObjetoDao:
         with CursorDelPool() as cursor:
             log.info(
                 f'Objeto a ingresar {objeto}')
-            valores = (objeto.name, objeto.descripcion, objeto.precio, objeto.cantidad)
+            valores = (objeto.nombre, objeto.descripcion, objeto.precio, objeto.cantidad)
             cursor.execute(cls._INSERTAR, valores)
             log.info(
                 f'Objeto insertado correctamente: {objeto}')
