@@ -10,3 +10,12 @@ LINE 1: SELECT * FROM inventario
             Descripcion: Limpiado multiusos, Precio: 20000.0,
             Cantidad: 5
         
+07:28:48 PM: ERROR [CursorDelPool.py:23] Ocurrio un error, realizando rollback: syntax error at or near "SELEC"
+LINE 1: SELEC * FROM objetos ORDER BY id_producto
+        ^
+ <class 'psycopg2.errors.SyntaxError'> <traceback object at 0x7c99c85fde80>
+07:28:56 PM: INFO [ObjetoDao.py:60] 
+            ID producto: 1, Nombre: Clorox, 
+            Descripcion: Limpiador Multiusos, Precio: 20000.0,
+            Cantidad: 2
+        
