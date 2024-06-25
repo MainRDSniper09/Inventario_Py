@@ -22,3 +22,49 @@ LINE 1: SELEC * FROM objetos ORDER BY id_producto
 09:04:09 PM: INFO [Usuario.py:35] 
             Usuario: Nicolas, Password: 1234
         
+09:22:46 PM: INFO [ObjetoDao.py:60] 
+            ID producto: 1, Nombre: Clorox, 
+            Descripcion: Limpiador Multiusos, Precio: 20000.0,
+            Cantidad: 2
+        
+09:24:22 PM: INFO [test.py:7] 
+            ID producto: 1, Nombre: Clorox, 
+            Descripcion: Limpiador Multiusos, Precio: 20000.0,
+            Cantidad: 2
+        
+09:28:42 PM: INFO [test.py:7] 
+            ID producto: 1, Nombre: Clorox, 
+            Descripcion: Limpiador Multiusos, Precio: 20000.0,
+            Cantidad: 2
+        
+09:33:55 PM: INFO [test.py:20] 
+            ID producto: 1, Nombre: Clorox, 
+            Descripcion: Limpiador Multiusos, Precio: 20000.0,
+            Cantidad: 2
+        
+09:34:38 PM: INFO [ObjetoDao.py:30] Objeto a ingresar 
+            ID producto: None, Nombre: Fabuloso, 
+            Descripcion: Limpia pisos, Precio: 18000.0,
+            Cantidad: 5
+        
+09:34:38 PM: ERROR [CursorDelPool.py:23] Ocurrio un error, realizando rollback: 'Objetos' object has no attribute 'name' <class 'AttributeError'> <traceback object at 0x7724654f8880>
+09:35:05 PM: INFO [ObjetoDao.py:30] Objeto a ingresar 
+            ID producto: None, Nombre: Fabuloso, 
+            Descripcion: Limpia piso, Precio: 18000.0,
+            Cantidad: 5
+        
+09:35:05 PM: INFO [ObjetoDao.py:34] Objeto insertado correctamente: 
+            ID producto: None, Nombre: Fabuloso, 
+            Descripcion: Limpia piso, Precio: 18000.0,
+            Cantidad: 5
+        
+09:35:15 PM: INFO [test.py:20] 
+            ID producto: 1, Nombre: Clorox, 
+            Descripcion: Limpiador Multiusos, Precio: 20000.0,
+            Cantidad: 2
+        
+09:35:15 PM: INFO [test.py:20] 
+            ID producto: 2, Nombre: Fabuloso, 
+            Descripcion: Limpia piso, Precio: 18000.0,
+            Cantidad: 5
+        
